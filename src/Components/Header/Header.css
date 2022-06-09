@@ -13,6 +13,6 @@ button.navbar-toggler {
     display: inline-block;
 }
 .active {
-    border-bottom: 2px solid tomato;
+    border-bottom: 2px solid #ff5523;
     font-weight: bold;
 }
