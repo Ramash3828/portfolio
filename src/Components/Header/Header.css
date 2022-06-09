@@ -1,0 +1,18 @@
+button.navbar-toggler {
+    border: none !important;
+    outline: none;
+    background-color: transparent;
+    color: black;
+}
+.navbar-toggler:focus {
+    outline: none;
+    border: none !important;
+}
+.nav-item a {
+    position: relative;
+    display: inline-block;
+}
+.active {
+    border-bottom: 2px solid tomato;
+    font-weight: bold;
+}
