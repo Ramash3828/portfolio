@@ -5,15 +5,15 @@ const Skills = () => {
     return (
         <div className="skill-area ">
             <div className="container">
-                <h2 className="text-uppercase text-bold">Skills</h2>
+                <h2 className="text-uppercase fw-bold">Skills</h2>
                 <div className="line mb-5"></div>
                 <div className="row">
                     <div className="col-md-6">
-                        <div className="skill-image">
+                        <div className="skill-image mx-auto">
                             <img src={skillImg} alt="skill" />
                         </div>
                     </div>
-                    <div className="col-md-6 d-flex align-items-center">
+                    <div className="col-md-6 d-flex align-items-center mt-5">
                         <div className="skill text-start ">
                             <ul>
                                 <li>

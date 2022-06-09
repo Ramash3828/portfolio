@@ -13,11 +13,11 @@ const Contact = () => {
             }}
         >
             <div className="container">
-                <h2 className="text-uppercase text-bold text-white">
+                <h2 className="text-uppercase fw-bold text-white">
                     Contact Me
                 </h2>
                 <div className="line mb-5"></div>
-                <div className="row">
+                <div className="row mt-5">
                     <div className="col-md-6 d-flex align-items-center ">
                         <div className="contact-details text-start text-white">
                             <div className="contact-icon">
@@ -34,11 +34,14 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 mt-5">
                         <div className="form-area hero">
-                            <form>
+                            <form
+                                action="https://formsubmit.co/e73aa9449de0ca5fe40b557af3b20744"
+                                method="POST"
+                            >
                                 <div className="input-group">
-                                    <input type="text" required />
+                                    <input type="text" name="name" required />
                                     <label for="">
                                         <i className="far fa-user"></i> Your
                                         Name
@@ -46,7 +49,7 @@ const Contact = () => {
                                 </div>
 
                                 <div className="input-group">
-                                    <input type="mail" required />
+                                    <input type="mail" name="email" required />
                                     <label for="">
                                         <i className="far fa-envelope"></i> Your
                                         E-mail
@@ -57,11 +60,12 @@ const Contact = () => {
                                     <textarea
                                         id="massage"
                                         rows="6"
+                                        name="message"
                                         required
                                     ></textarea>
                                     <label for="">
                                         <i className="far fa-comments"></i>{" "}
-                                        Massage
+                                        Message
                                     </label>
                                 </div>
                                 <button className="form-btn" type="submit">

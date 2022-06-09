@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <main>
             <div
-                className="hero-area"
+                className="hero-area py-5"
                 style={{
                     backgroundImage: `url(${heroBg})`,
                     backgroundPosition: `center`,
@@ -68,7 +68,7 @@ const Home = () => {
                                         />
                                     </h2>
                                 </div>
-                                <p>
+                                <p className="text-white">
                                     Building applications with front and back
                                     end.
                                 </p>

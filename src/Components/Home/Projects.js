@@ -7,11 +7,11 @@ const Projects = () => {
     return (
         <div className="project-area">
             <div className="container">
-                <h2 className="text-uppercase text-bold">Projects</h2>
+                <h2 className="text-uppercase fw-bold">Projects</h2>
                 <div className="line mb-5"></div>
                 <div className="row">
-                    <div className="col-md-4">
-                        <div class="card" style={{ width: `18rem` }}>
+                    <div className="col-md-4 mt-5 ">
+                        <div class="card mx-auto" style={{ width: `18rem` }}>
                             <div className="card-image">
                                 <img
                                     src={phmImg}
@@ -41,8 +41,8 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div class="card" style={{ width: `18rem` }}>
+                    <div className="col-md-4 mt-5">
+                        <div class="card mx-auto" style={{ width: `18rem` }}>
                             <div className="card-image">
                                 <img
                                     src={byCycleImg}
@@ -71,8 +71,8 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div class="card" style={{ width: `18rem` }}>
+                    <div className="col-md-4 mt-5">
+                        <div class="card mx-auto" style={{ width: `18rem` }}>
                             <div className="card-image">
                                 <img
                                     src={eliteImg}
