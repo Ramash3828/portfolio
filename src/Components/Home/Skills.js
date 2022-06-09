@@ -1,15 +1,20 @@
 import React from "react";
+import skillImg from "../../images/skill-img.jpg";
 
 const Skills = () => {
     return (
-        <div className="skill-area">
+        <div className="skill-area ">
             <div className="container">
                 <h2 className="text-uppercase text-bold">Skills</h2>
                 <div className="line mb-5"></div>
                 <div className="row">
-                    <div className="col-md-6"></div>
                     <div className="col-md-6">
-                        <div className="skill text-start">
+                        <div className="skill-image">
+                            <img src={skillImg} alt="skill" />
+                        </div>
+                    </div>
+                    <div className="col-md-6 d-flex align-items-center">
+                        <div className="skill text-start ">
                             <ul>
                                 <li>
                                     <strong>Expert in -</strong> HTML5, CSS3,

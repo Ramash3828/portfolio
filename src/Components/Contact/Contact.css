@@ -1,0 +1,132 @@
+.contact-area {
+    padding: 80px 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Romanesco&family=Yeseva+One&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h2 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group .input-group {
+    width: 48%;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input,
+textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 15px;
+    color: #000;
+}
+
+label {
+    position: absolute;
+    color: rgba(204, 204, 204, 0.589);
+    padding: 10px;
+    cursor: text;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+button {
+    padding: 10px 0;
+    outline: none;
+    border: 1px solid #fff;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.35s;
+    -webkit-transition: 0.35s;
+    -moz-transition: 0.35s;
+    -ms-transition: 0.35s;
+    -o-transition: 0.35s;
+}
+
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+    font-size: 13px;
+    top: -30px;
+    color: #fff;
+}
+input:focus,
+textarea:focus {
+    background-color: #fff;
+}
+.form-btn:hover {
+    color: #ff5523;
+    border: 1px solid #ff5523;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.contact-details i {
+    color: #ff5523;
+    font-size: 30px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #ff5523;
+    border-radius: 0 15px 0 15px;
+    -webkit-border-radius: 0 15px 0 15px;
+    -moz-border-radius: 0 15px 0 15px;
+    -ms-border-radius: 0 15px 0 15px;
+    -o-border-radius: 0 15px 0 15px;
+}
+.contact-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}

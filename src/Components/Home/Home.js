@@ -6,6 +6,7 @@ import heroBg from "../../images/hero-bg.jpg";
 import myImage from "../../images/ramash.png";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
     return (
@@ -96,6 +97,7 @@ const Home = () => {
             </div>
             <Skills />
             <Projects />
+            <Contact />
         </main>
     );
 };

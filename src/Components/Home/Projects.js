@@ -5,7 +5,7 @@ import eliteImg from "../../images/Elite-Physiotherapy-Center.png";
 
 const Projects = () => {
     return (
-        <div className="py-5">
+        <div className="project-area">
             <div className="container">
                 <h2 className="text-uppercase text-bold">Projects</h2>
                 <div className="line mb-5"></div>
@@ -35,7 +35,7 @@ const Projects = () => {
                                         }
                                         className="view-btn"
                                     >
-                                        view
+                                        preview
                                     </button>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ const Projects = () => {
                                         }
                                         className="view-btn"
                                     >
-                                        view
+                                        preview
                                     </button>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@ const Projects = () => {
                                         }
                                         className="view-btn"
                                     >
-                                        view
+                                        preview
                                     </button>
                                 </div>
                             </div>
