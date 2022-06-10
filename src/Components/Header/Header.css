@@ -1,16 +1,21 @@
+.my-nav {
+    background-color: #141e27;
+}
 button.navbar-toggler {
     border: none !important;
     outline: none;
     background-color: transparent;
-    color: black;
+    color: #dff6ff;
 }
 .navbar-toggler:focus {
     outline: none;
     border: none !important;
 }
+
 .nav-item a {
     position: relative;
     display: inline-block;
+    color: #dff6ff !important;
 }
 .active {
     border-bottom: 2px solid #ff5523;

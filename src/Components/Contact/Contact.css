@@ -13,7 +13,7 @@
 }
 
 .hero h2 {
-    color: #fff;
+    color: #dff6ff;
     text-transform: uppercase;
     margin-bottom: 30px;
     letter-spacing: 5px;
@@ -45,9 +45,9 @@ textarea {
     padding: 10px;
     outline: none;
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #dff6ff;
     font-size: 15px;
-    color: #000;
+    color: #fff;
 }
 
 label {
@@ -65,14 +65,14 @@ label {
     -o-transition: 0.2s;
 }
 
-button {
+button.form-btn {
     padding: 10px 0;
     outline: none;
-    border: 1px solid #fff;
+    border: 1px solid #dff6ff;
     background-color: transparent;
     cursor: pointer;
     width: 100%;
-    color: #fff;
+    color: #dff6ff;
     font-size: 15px;
     transition: 0.35s;
     -webkit-transition: 0.35s;
@@ -87,12 +87,12 @@ textarea:focus ~ label,
 textarea:valid ~ label {
     font-size: 13px;
     top: -30px;
-    color: #fff;
+    color: #dff6ff;
 }
-input:focus,
+/* input:focus,
 textarea:focus {
-    background-color: #fff;
-}
+    background-color: #dff6ff;
+} */
 .form-btn:hover {
     color: #ff5523;
     border: 1px solid #ff5523;
@@ -112,7 +112,7 @@ textarea:focus {
     text-align: center;
     border: 1px solid #ff5523;
     border-radius: 0 15px 0 15px;
-    -webkit-border-radius: 0 15px 0 15px;
+    -webkit-border-radius: 15px 0 15px 0;
     -moz-border-radius: 0 15px 0 15px;
     -ms-border-radius: 0 15px 0 15px;
     -o-border-radius: 0 15px 0 15px;

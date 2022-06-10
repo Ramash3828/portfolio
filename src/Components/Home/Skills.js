@@ -5,7 +5,7 @@ const Skills = () => {
     return (
         <div className="skill-area ">
             <div className="container">
-                <h2 className="text-uppercase fw-bold">Skills</h2>
+                <h2 className="text-uppercase fw-bold title">Skills</h2>
                 <div className="line mb-5"></div>
                 <div className="row">
                     <div className="col-md-6">
@@ -13,7 +13,7 @@ const Skills = () => {
                             <img src={skillImg} alt="skill" />
                         </div>
                     </div>
-                    <div className="col-md-6 d-flex align-items-center mt-5">
+                    <div className="col-md-6 d-flex align-items-center my-3">
                         <div className="skill text-start ">
                             <ul>
                                 <li>

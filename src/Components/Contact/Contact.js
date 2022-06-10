@@ -7,15 +7,13 @@ const Contact = () => {
         <div
             className="contact-area"
             style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(${contactImg})`,
+                backgroundImage: `linear-gradient(rgba(6, 40, 61, 0.9), rgba(6, 40, 61, 0.9)), url(${contactImg})`,
                 backgroundRepeat: `no-repeat`,
                 backgroundSize: `cover`,
             }}
         >
             <div className="container">
-                <h2 className="text-uppercase fw-bold text-white">
-                    Contact Me
-                </h2>
+                <h2 className="text-uppercase fw-bold title">Contact Me</h2>
                 <div className="line mb-5"></div>
                 <div className="row mt-5">
                     <div className="col-md-6 d-flex align-items-center ">

@@ -2,6 +2,7 @@
     width: 100%;
     z-index: -2;
 }
+
 .social-contact a {
     text-decoration: none;
     display: inline-block;
@@ -11,8 +12,8 @@
     cursor: pointer;
     width: 45px;
     height: 45px;
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid #dff6ff;
+    color: #dff6ff;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -22,7 +23,7 @@
 .social-contact a:hover {
     border: 1px solid #ff5523;
     background-color: #ff5523;
-    color: #ffffff;
+    color: #dff6ff;
     transition: 0.35s;
     -webkit-transition: 0.35s;
     -moz-transition: 0.35s;
@@ -32,7 +33,9 @@
 .portfolio-title {
     color: #ff5523;
 }
-
+.title {
+    color: #1363df;
+}
 /* Button Area */
 .btn-area {
     display: flex;
@@ -50,6 +53,21 @@ a.btn-text {
 .image-area {
     padding: 50px 0;
 }
+.img-wraper {
+    width: 320px;
+    height: 320px;
+    background-color: #1e2c38;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.img-wraper:hover .image-container {
+    margin-top: 10px;
+}
 .image-container {
     margin: auto;
     width: 300px;
@@ -57,7 +75,7 @@ a.btn-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid white;
+    border: 3px solid #dff6ff;
     border-radius: 50%;
     overflow: hidden;
     -webkit-border-radius: 50%;
@@ -98,6 +116,9 @@ a.btn-text {
     -o-transform: translate(-50%, -50%);
 }
 .card {
+    background-color: transparent;
+    color: #dff6ff;
+    border: 1px solid #ff5523;
 }
 .card-image {
     position: relative;
@@ -131,7 +152,7 @@ a.btn-text {
     background-color: #ff5523;
     border: 1px solid #ff5523;
     border-radius: 6px;
-    color: #ffffff;
+    color: #dff6ff;
     text-transform: uppercase;
     font-size: 12px;
     transition: 0.35s;
@@ -151,6 +172,7 @@ a.btn-text {
 }
 .skill {
     box-shadow: 5px 5px 20px #00000054;
+    border: 1px solid #ff5523;
     padding: 30px 20px;
     border-radius: 50px 0 50px 0;
     -webkit-border-radius: 50px 0 50px 0;
@@ -161,6 +183,7 @@ a.btn-text {
 .skill li {
     font-size: 16px;
     margin: 10px 0;
+    color: #dff6ff;
 }
 .skill-image {
     width: 80%;
@@ -168,4 +191,70 @@ a.btn-text {
 .skill-image img {
     width: 100%;
     object-fit: cover;
+}
+/* Project Details */
+.project-details {
+    padding: 80px 0;
+}
+.project-wrapper {
+    border: 1px solid #ff5523;
+    padding: 10px;
+}
+.project-sample {
+    /* height: 260px; */
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+.left-side {
+    width: 50%;
+}
+.right-side {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.left-side img,
+.half-img img {
+    width: 100%;
+    object-fit: contain;
+}
+.tools-btn:focus {
+    outline: none;
+    border: none;
+}
+.details {
+    text-align: left;
+}
+.details h4,
+.details p,
+.details ul li {
+    color: #dff6ff;
+}
+.details ul li {
+    font-size: 12px;
+}
+.tools-btn {
+    border: none;
+    background: linear-gradient(#fabab5, #ff2523);
+    padding: 0 10px;
+    margin: 5px 5px;
+}
+.link-btn {
+    padding: 8px 20px;
+    border: 1px solid #1363df;
+    margin: 10px;
+    color: #dff6ff;
+    background-color: transparent;
+    border-radius: 15px 0 15px 0;
+    -webkit-border-radius: 15px 0 15px 0;
+    -moz-border-radius: 15px 0 15px 0;
+    -ms-border-radius: 15px 0 15px 0;
+    -o-border-radius: 15px 0 15px 0;
+}
+.pro-title {
+    border-bottom: 1px solid #f3c3ae;
 }
