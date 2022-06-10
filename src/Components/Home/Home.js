@@ -85,9 +85,9 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 align-items-center order-1 order-md-2">
-                            <div className="image-area">
-                                <div className="img-wraper">
+                        <div className="col-md-6 d-flex align-items-center justify-content-center order-1 order-md-2">
+                            <div className="image-area ">
+                                <div className="img-wraper ">
                                     <div className="image-container">
                                         <img src={myImage} alt="Ramash" />
                                     </div>

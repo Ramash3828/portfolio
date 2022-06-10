@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
+    const [isClick, setIsClick] = useState(false);
     return (
         <nav className="navbar navbar-expand-lg navbar-light my-nav">
             <div className="container">
                 <button
-                    className="navbar-toggler"
+                    className="navbar-toggler "
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"

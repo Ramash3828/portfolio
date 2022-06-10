@@ -5,7 +5,11 @@ button.navbar-toggler {
     border: none !important;
     outline: none;
     background-color: transparent;
-    color: #dff6ff;
+}
+.fa-solid {
+    font-family: "Font Awesome 6 Free";
+    color: #dff6ff !important;
+    z-index: 15;
 }
 .navbar-toggler:focus {
     outline: none;
