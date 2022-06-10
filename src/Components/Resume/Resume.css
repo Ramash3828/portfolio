@@ -1,0 +1,5 @@
+.resume {
+    height: 60vh;
+    display: grid;
+    place-items: center;
+}
