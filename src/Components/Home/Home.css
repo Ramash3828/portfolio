@@ -32,6 +32,7 @@
 }
 .portfolio-title {
     color: #ff5523;
+    font-weight: bold;
 }
 .title {
     color: #1363df;
@@ -67,9 +68,7 @@ a.btn-text {
     -o-border-radius: 50%;
     margin: 0 auto;
 }
-.img-wraper:hover .image-container {
-    margin-top: 10px;
-}
+
 .image-container {
     margin: auto;
     width: 300px;
@@ -89,7 +88,13 @@ a.btn-text {
     width: 100%;
     object-fit: cover;
 }
-
+.image-container:hover img {
+    transform: translate(1.2);
+    -webkit-transform: translate(1.2);
+    -moz-transform: translate(1.2);
+    -ms-transform: translate(1.2);
+    -o-transform: translate(1.2);
+}
 /* Projects area */
 .project-area {
     padding: 80px 0;

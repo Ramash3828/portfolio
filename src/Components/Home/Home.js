@@ -23,7 +23,7 @@ const Home = () => {
                 }}
             >
                 <div className="container">
-                    <div className="row">
+                    <div className="row d-flex align-items-center justify-content-center">
                         <div className="col-md-6 order-2 order-md-1">
                             <div className="portfolio-area">
                                 <div className="social-contact my-3">
@@ -95,14 +95,14 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 d-flex align-items-center justify-content-center order-1 order-md-2">
-                            <div className="image-area ">
-                                <div className="img-wraper ">
-                                    <div className="image-container">
-                                        <img src={myImage} alt="Ramash" />
-                                    </div>
+                        <div className="col-md-6  order-1 order-md-2">
+                            {/* <div className="image-area "> */}
+                            <div className="img-wraper ">
+                                <div className="image-container">
+                                    <img src={myImage} alt="Ramash" />
                                 </div>
                             </div>
+                            {/* </div> */}
                         </div>
                     </div>
                 </div>

@@ -1,22 +1,34 @@
 import React from "react";
+import { NavLink, Outlet } from "react-router-dom";
 import "./About.css";
 
 const About = () => {
     return (
         <div className="py-5">
-            <div className="contianer">
+            <div className="container">
                 <h2 className="text-uppercase fw-bold title">About Me</h2>
                 <div className="line mb-5"></div>
-                <p className="text-white w-50 mx-auto">
-                    Building a career with any national or international
-                    organization so that I can use my learning and potentiality
-                    properly for the development of the organization as well as
-                    myself. As a web application developer adept at building web
-                    applications from front end to back end. Passionate, new
-                    technologies bring ideas to life and work with dedicated
-                    teams to build efficient and robust applications suited to
-                    the user’s needs.
-                </p>
+                <div className="container">
+                    <div className="row g-5">
+                        <div className="col-md-4">
+                            <ul className="about-link">
+                                <div className="links">
+                                    <li className="mb-4">
+                                        <NavLink to="/about/about-me">
+                                            About Me
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink to="/about/education">
+                                            Education
+                                        </NavLink>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div className="col-md-8 links-desc">{<Outlet />}</div>
+                    </div>
+                </div>
             </div>
         </div>
     );

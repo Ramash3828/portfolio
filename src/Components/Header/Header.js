@@ -62,6 +62,16 @@ const Header = () => {
                                 Contact
                             </NavLink>
                         </li>
+                        <li className="nav-item">
+                            <NavLink
+                                onClick={() => setClicked(!clicked)}
+                                to="blogs"
+                                className="nav-link "
+                                aria-current="page"
+                            >
+                                Blogs
+                            </NavLink>
+                        </li>
                     </ul>
                 </div>
             </div>

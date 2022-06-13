@@ -1,0 +1,38 @@
+.about-link a {
+    text-decoration: none;
+    color: #ccc;
+    padding-bottom: 10px;
+    width: 100%;
+    display: block;
+}
+.links {
+    padding: 30px;
+}
+.links a {
+    text-decoration: none;
+    display: block;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.171);
+}
+.links a.active {
+    color: #ff5523;
+    border-bottom: 1px solid #ff5523;
+}
+.links-desc {
+    border-left: 1px solid rgba(204, 204, 204, 0.171);
+    height: 100%;
+}
+.edu-sub-title {
+    border-bottom: 1px solid #ccc;
+}
+.education-area {
+    height: 50vh;
+}
+.edu-sub-title {
+    color: rgba(204, 204, 204, 0.719);
+}
+.edu-text,
+.about-text p {
+    color: rgba(204, 204, 204, 0.466);
+    font-size: 14px;
+}
