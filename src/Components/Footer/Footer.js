@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import myImage from "../../images/ramash.png";
+import myImage from "../../images/ramash-2.png";
 import { Link } from "react-router-dom";
 import phmImg from "../../images/PHM-Manufacturer.png";
 import byCycleImg from "../../images/BiCycle-Store.png";

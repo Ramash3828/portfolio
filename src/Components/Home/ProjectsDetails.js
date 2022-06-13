@@ -11,8 +11,8 @@ const ProjectsDetails = () => {
                     Projects Details
                 </h2>
                 <div className="line mb-5"></div>
-                <div className="row">
-                    <div className="col-md-6 d-flex align-items-center">
+                <div className="row align-items-center">
+                    <div className="col-md-6 ">
                         <div className="project-wrapper">
                             <div className="project-sample">
                                 <div className="left-side">

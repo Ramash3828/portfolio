@@ -3,12 +3,14 @@ import "./Home.css";
 import Typical from "react-typical";
 import Button from "../../Shared/Button";
 import heroBg from "../../images/hero-bg.jpg";
-import myImage from "../../images/ramash.png";
+import myImage from "../../images/ramash-2.png";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Contact from "../Contact/Contact";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    const navigate = useNavigate();
     return (
         <main>
             <div
@@ -73,7 +75,15 @@ const Home = () => {
                                     end.
                                 </p>
                                 <div className="btn-area">
-                                    <Button>Hire me</Button>
+                                    <Button
+                                        onClick={() => console.log("click")}
+                                    >
+                                        <span
+                                            onClick={() => navigate("/contact")}
+                                        >
+                                            Hire me
+                                        </span>
+                                    </Button>
 
                                     <a
                                         className="btn-text"

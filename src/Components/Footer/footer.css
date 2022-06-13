@@ -9,6 +9,7 @@ footer {
     height: 70px;
     border: 1px solid #ff5523;
     margin-bottom: 10px;
+    object-fit: cover;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
